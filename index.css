@@ -48,13 +48,14 @@
 h2 {
     font-size: 130%;
     color: #84683b;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: "Sofia", sans-serif;
+    font-style: oblique;
 }
 
 p {
     font-size: 20px;
     color: #a77f58;
-    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-family: "Mukta";
     text-align: justify;
     margin: 4%;
 }
@@ -71,11 +72,6 @@ h4 {
     margin-top: 0%;
     line-height: 40%;
     text-align: center;
-}
-
-div {
-
-    line-height: 25px;
 }
 
 body {
@@ -249,5 +245,46 @@ th {
 }
 body {
     margin-left: 8%;
-    background-image:url(imagens/background.jpg) 
+    background-color: #F1DEC9;
+}
+.container {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #8D7B68;
+  margin-right: 0%;
+}
+
+h1 {
+  font-size: 200%;
+  text-transform: uppercase;
+  font-family: 'Gambetta', serif;
+  letter-spacing: -2px;
+  transition: 700ms ease;
+  font-variation-settings: "wght" 333;
+  margin-bottom: 2%;
+  color: PaleGoldenRod;
+  outline: none;
+  text-align: center;
+  margin-top: 50%;
+  text-decoration: overline #84683b;
+}
+
+h1:hover {
+  font-variation-settings: "wght" 582; 
+  letter-spacing: 1px;
+}
+.container > p {
+  font-size: 50%;
+  line-height: 120%;
+  text-align: center;
+  color: MintCream;
+  letter-spacing: .5px;
+  text-align: center;
+  margin: 10%;
+  margin-top: 5%;
+
 }
