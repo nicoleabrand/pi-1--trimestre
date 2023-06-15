@@ -34,15 +34,12 @@
         'menu main main main right right'
         'menu footer footer footer footer footer';
     gap: 0px;
-    background-color: #030000;
     padding: 0px;
 }
 
 .grid-container>div {
     background-color: #F1DEC9;
-    text-align: center;
     padding: 0 0;
-    font-size: 30px;
 }
 
 h2 {
@@ -50,14 +47,6 @@ h2 {
     color: #84683b;
     font-family: "Sofia", sans-serif;
     font-style: oblique;
-}
-
-p {
-    font-size: 20px;
-    color: #a77f58;
-    font-family: "Mukta";
-    text-align: justify;
-    margin: 4%;
 }
 
 h3 {
@@ -247,7 +236,7 @@ body {
     margin-left: 8%;
     background-color: #F1DEC9;
 }
-.container {
+/*.container {
   width: 100%;
   height: 50%;
   display: flex;
@@ -256,35 +245,43 @@ body {
   align-items: center;
   background-color: #8D7B68;
   margin-right: 0%;
-}
+}*/
 
-h1 {
-  font-size: 200%;
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body h1 {
+  font-size: 700%;
   text-transform: uppercase;
   font-family: 'Gambetta', serif;
-  letter-spacing: -2px;
+  letter-spacing: -3px;
   transition: 700ms ease;
-  font-variation-settings: "wght" 333;
-  margin-bottom: 2%;
+  font-variation-settings: "wght" 311;
+  margin-bottom: 0.8rem;
   color: PaleGoldenRod;
+  box-shadow: 0;
   outline: none;
   text-align: center;
-  margin-top: 50%;
-  text-decoration: overline #84683b;
+  text-decoration:overline #8D7B68; 
+  text-shadow: 2px 2px #8D7B68
+
 }
 
 h1:hover {
   font-variation-settings: "wght" 582; 
   letter-spacing: 1px;
 }
-.container > p {
-  font-size: 50%;
-  line-height: 120%;
+
+p {
+  font-size: 100%;
+  line-height: 150%;
   text-align: center;
   color: MintCream;
   letter-spacing: .5px;
-  text-align: center;
-  margin: 10%;
-  margin-top: 5%;
-
+  padding: 5%;
 }
