@@ -2,87 +2,100 @@
 @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@500&display=swap');
 
 .item1 {
-    grid-area: header;
-    width: auto;
-    border-radius: 0%;
-    background-color: #F1DEC9;
+  grid-area: header;
+  width: auto;
+  border-radius: 0%;
+  background-color: #F1DEC9;
 }
 
 .item2 {
-    grid-area: main;
-    width: 100%;
-    margin: 0 ;
-    margin-top: 0%;
-    margin-left: 0%;
+  grid-area: main;
+  width: 100%;
+  margin: 0;
+  margin-top: 0%;
+  margin-left: 0%;
 }
 
 .item3 {
-    grid-area: right;
-    width: auto;
+  grid-area: right;
+  width: auto;
 }
 
 .item4 {
-    grid-area: footer;
-    width: auto;
-    height: fit-content;
+  grid-area: footer;
+  width: auto;
+  height: fit-content;
 }
 
 .grid-container {
-    display: grid;
-    column-gap: 0px;
-    grid-template-areas:
-        'header header header header header header'
-        'menu main main main right right'
-        'menu footer footer footer footer footer';
-    gap: 0px;
-    padding: 0px;
+  display: grid;
+  column-gap: 0px;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  gap: 0px;
+  padding: 0px;
 }
 
 .grid-container>div {
-    background-color: #F1DEC9;
-    padding: 0 0;
+  background-color: #F1DEC9;
+  padding: 0 0;
 }
 
 h2 {
-    font-size: 130%;
-    color: #84683b;
-    font-family: "Sofia", sans-serif;
-    font-style: oblique;
+  font-size: 130%;
+  color: #84683b;
+  font-family: "Sofia", sans-serif;
+  font-style: oblique;
 }
 
 h3 {
-    font-size: 15px;
-    color: #292c37
+  font-size: 15px;
+  color: #292c37
 }
 
 h4 {
-    font-size: 40px;
-    color: #660708;
-    font-family: "Lucida Handwriting", cursive;
-    margin-top: 0%;
-    line-height: 40%;
-    text-align: center;
+  font-size: 40px;
+  color: #660708;
+  font-family: "Lucida Handwriting", cursive;
+  margin-top: 0%;
+  line-height: 40%;
+  text-align: center;
+}
+h6 {
+  font-size: small;
+  color: black;
+  font-family: "Sofia", sans-serif;
+  margin-right: 8%;
+  margin-left: 40%;
+  text-align: right;
 }
 
 body {
-    margin: 0%;
+  margin: 0%;
 }
 
-table,
+table {
+  margin-left: 10%;
+  text-align: right;
+}
 td {
-    font-size: 20px;
+  margin-right: 0;
 }
 
-th {
-    font-size: 25px;
-    text-transform: uppercase;
-
+tr {
+  font-size: 25px;
+  color: #775e35;
+  margin-left: 10%;
+  text-align: right;
 }
 
 @import url("//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css");
+
 .menu,
 .menu-bar {
-  position:fixed;
+  position: fixed;
   bottom: 0;
   left: 0;
   height: 100%;
@@ -96,6 +109,7 @@ th {
   width: 10%;
   text-align: left;
 }
+
 .menu li a {
   display: inline-block;
   text-indent: 15px;
@@ -110,8 +124,9 @@ th {
   width: 100%;
   text-indent: 5px;
   text-decoration: none;
-  font-family:"Bahnschrift SemiBold";
+  font-family: "Bahnschrift SemiBold";
 }
+
 .menu li a:before {
   font-family: FontAwesome;
   speak: none;
@@ -123,30 +138,38 @@ th {
   height: 100%;
   font-size: 1.4em;
 }
+
 .menu li a.search:before {
   content: "\f002";
 }
+
 .menu li a.archive:before {
   content: "\f187";
 }
+
 .menu li a.pencil:before {
   content: "\f040";
 }
+
 .menu li a.contact:before {
   content: "\f003";
 }
+
 .menu li a.about:before {
   content: "\f007";
 }
+
 .menu li a.home:before {
   content: "\f039";
 }
+
 .menu-bar li a:hover,
 .menu li a:hover,
 .menu li:first-child a {
   background: #A4907C;
   color: #F1DEC9;
 }
+
 .menu-bar {
   overflow: hidden;
   left: 5em;
@@ -157,19 +180,20 @@ th {
   left: 8%;
 
 }
+
 .menu-bar li a {
   display: block;
   height: 4em;
   line-height: 4em;
   color: #A4907C;
   text-decoration: none;
-  position:sticky;
+  position: sticky;
   font-family: "Franklin Gothic Medium";
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   border-left: 20px solid rgba(0, 0, 0, 0.05);
   transition: 0.1s ease-in-out;
   width: 100%;
-  text-align:center;
+  text-align: center;
 }
 
 /*.menu-bar li:first-child a {
@@ -196,16 +220,20 @@ th {
   .container {
     margin-top: 100px;
   }
+
   .menu {
     height: 5em;
     width: 100%;
   }
+
   .menu li {
     display: inline-block;
   }
+
   .menu-bar li a {
     width: 100%;
   }
+
   .menu-bar {
     width: 100%;
     left: 0;
@@ -213,30 +241,35 @@ th {
     height: 0;
     margin-left: 150;
   }
+
   .open {
     width: 100%;
     height: auto;
     margin-left: 0;
   }
+
   .para {
     padding-left: 10px;
   }
 }
+
 @media screen and (max-height: 34em) {
-  .menu
-  .menu-bar {
+  .menu .menu-bar {
     font-size: 70%;
   }
 }
+
 @media screen and (max-height: 34em) and (max-width: 500px) {
   .menu {
     height: 3.5em;
   }
 }
+
 body {
-    margin-left: 8%;
-    background-color: #F1DEC9;
+  margin-left: 8%;
+  background-color: #F1DEC9;
 }
+
 /*.container {
   width: 100%;
   height: 50%;
@@ -269,13 +302,12 @@ body h1 {
   box-shadow: 0;
   outline: none;
   text-align: center;
-  text-decoration:overline #8D7B68; 
+  text-decoration: overline #8D7B68;
   text-shadow: 2px 2px #8D7B68
-
 }
 
 h1:hover {
-  font-variation-settings: "wght" 582; 
+  font-variation-settings: "wght" 582;
   letter-spacing: 1px;
 }
 
@@ -287,18 +319,20 @@ h1:last-child::after {
 
 
 p {
-  font-size: 120%;
+  font-size: 140%;
   line-height: 150%;
   text-align: center;
-  color: MintCream;
+  color: #775e35;
   letter-spacing: .5px;
-  padding: 5%;
   font-family: 'Sofia Sans Condensed', sans-serif;
-  margin-top: 0;
+  margin:2.5%;
+  margin-left: 5%;
 
 }
 
-* {box-sizing:border-box}
+* {
+  box-sizing: border-box
+}
 
 /* Slideshow container */
 .slideshow-container {
@@ -315,7 +349,8 @@ p {
 }
 
 /* Next & previous buttons */
-.prev, .next {
+.prev,
+.next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -337,8 +372,9 @@ p {
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Caption text */
@@ -373,7 +409,8 @@ p {
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+.active,
+.dot:hover {
   background-color: #717171;
 }
 
@@ -384,11 +421,16 @@ p {
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
 }
-.carousel-inner img{
+
+.carousel-inner img {
   height: 400px !important;
   width: 200%;
 }
- 
