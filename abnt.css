@@ -94,7 +94,7 @@ td {
 }
 
 tr {
-    font-size: 25px;
+    font-size: 170%;
     color: #775e35;
     text-align: justify;
     letter-spacing: 0.04cm;
@@ -175,9 +175,13 @@ img,.item2 {
     content: "\f039";
 }
 
-.menu-bar li a:hover,
+.menu-bar li a:hover{
+    background: #A4907C;
+    color: #fff;
+}
+
 .menu li a:hover,
-.menu li:first-child a {
+.menu-bar li:first-child a {
     background: #A4907C;
     color: #F1DEC9;
 }

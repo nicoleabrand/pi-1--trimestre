@@ -199,7 +199,7 @@ tr {
     text-align: center;
 }
 
-/*.menu-bar li:first-child a {
+/*.menu-bar li:fifth-child a {
   height: 5em;
   background: #A4907C;
   color: #fff;
@@ -327,7 +327,7 @@ p {
   letter-spacing: .5px;
   font-family: 'Sofia Sans Condensed', sans-serif;
   margin:2.5%;
-  margin-left: 8%;
+  text-indent: 4;
   padding: 3% 3% 3% 3%;
 
 }
@@ -434,6 +434,6 @@ p {
 }
 
 .carousel-inner img {
-  height: 250px !important;
+  height: 400px !important;
   width: 200%;
 }
