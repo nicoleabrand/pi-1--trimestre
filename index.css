@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@500&display=swap');
 
-.item1 {
+header {
   grid-area: header;
   width: auto;
   border-radius: 0%;
@@ -9,7 +9,7 @@
   margin-left: 8%;
 }
 
-.item2 {
+main {
   grid-area: main;
   width: 100%;
   margin: 0;
@@ -18,15 +18,15 @@
   background-color: #F1DEC9;
 }
 
-.item3 {
-  grid-area: right;
-  width: auto;
-}
-
-.item4 {
+footer {
   grid-area: footer;
   width: auto;
-  height: fit-content;
+  height: 50px;
+  background-color:#8D7B68;
+  text-align: center;
+  font-size: medium;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 4%;
 }
 
 .grid-container {
@@ -34,7 +34,7 @@
   column-gap: 0px;
   grid-template-areas:
     'header header header header header header'
-    'menu main main main main right'
+    'menu main main main main main'
     'menu footer footer footer footer footer';
   gap: 0px;
   padding: 0px;
@@ -77,21 +77,6 @@ h6 {
 body {
   margin: 0%;
   background-color: #F1DEC9;
-}
-
-table {
-  margin-left: 10%;
-  text-align: right;
-}
-td {
-  margin-right: 0;
-}
-
-tr {
-  font-size: 25px;
-  color: #775e35;
-  margin-left: 10%;
-  text-align: right;
 }
 
 @import url("//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css");
@@ -327,8 +312,7 @@ p {
   letter-spacing: .5px;
   font-family: 'Sofia Sans Condensed', sans-serif;
   margin:2.5%;
-  text-indent: 4;
-  padding: 3% 3% 3% 3%;
+  padding: 3% 3% 3% 10%;
 
 }
 
@@ -342,7 +326,7 @@ p {
   max-width: 200%;
   position: relative;
   margin: 0%;
-  margin-left: 3%;
+  margin-left: 5%;
 
 }
 
