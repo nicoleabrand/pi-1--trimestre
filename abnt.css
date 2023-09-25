@@ -54,7 +54,7 @@ h3 {
     margin: auto;
     font-family: sans-serif;
     line-height: 1cm;
-    margin-left: 2%;
+    margin-left: 1cm;
     font-weight: 100;
 }
 
@@ -70,8 +70,8 @@ h6 {
     font-size: small;
     color: black;
     font-family: sans-serif;
-    margin-right: 8%;
-    margin-left: 40%;
+    margin-right: 2cm;
+    margin-left: 4cm;
     text-align: right;
 }
 
