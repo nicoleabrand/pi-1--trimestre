@@ -151,9 +151,13 @@ body {
     content: "\f039";
 }
 
-.menu-bar li a:hover,
+.menu-bar li a:hover{
+    background: #A4907C;
+    color: #fff;
+}
+
 .menu li a:hover,
-.menu li:first-child a {
+.menu-bar li:first-child a {
     background: #A4907C;
     color: #F1DEC9;
 }
@@ -184,7 +188,7 @@ body {
     text-align: center;
 }
 
-/*.menu-bar li:fifth-child a {
+/*.menu-bar li:first-child a {
   height: 5em;
   background: #A4907C;
   color: #fff;
@@ -204,53 +208,70 @@ body {
     height: 100%;
 }
 
-@media all and (max-width: 500px) {
-    .container {
-        margin-top: 100px;
-    }
+@media all and (max-width: 600px) {
+  .container {
+      margin-top: 100px;
+  }
+  
+.menu,
+.menu-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background: #F1DEC9;
+    z-index: 10;
+    overflow: hidden;
+    box-shadow: 2px 0 18px rgba(0, 0, 0, 0.26);
+    width: 10%;
+    text-align: left;
+}
 
-    .menu {
-        height: 5em;
-        width: 100%;
-    }
+  .menu {
+      height: 5em;
+      width: 100%;
+  }
 
-    .menu li {
-        display: inline-block;
-    }
+  .menu li {
+      display: inline-block;
+  }
 
-    .menu-bar li a {
-        width: 100%;
-    }
+  .menu-bar li a {
+      width: 100%;
+  }
 
-    .menu-bar {
-        width: 100%;
-        left: 0;
-        bottom: 0;
-        height: 0;
-        margin-left: 150;
-    }
+  .menu-bar {
+      width: 100%;
+      left: 0;
+      bottom: 0;
+      height: 0;
+      margin-left: 150;
+  }
 
-    .open {
-        width: 100%;
-        height: auto;
-        margin-left: 0;
-    }
+  .open {
+      width: 100%;
+      height: 520px;
+      margin-left: 0;
+  }
 
-    .para {
-        padding-left: 10px;
-    }
+  .para {
+      padding-left: 10px;
+  }
 }
 
 @media screen and (max-height: 34em) {
-    .menu .menu-bar {
-        font-size: 70%;
-    }
+  .menu .menu-bar {
+      font-size: 70%;
+  }
 }
 
 @media screen and (max-height: 34em) and (max-width: 500px) {
-    .menu {
-        height: 3.5em;
-    }
+  .menu {
+      height: 3.5em;
+  }
 }
 
 body {
@@ -421,3 +442,73 @@ p {
   height: 400px !important;
   width: 200%;
 }
+
+@media screen and (max-width: 600px) {
+  main p {
+      margin-left: 0px;
+      font-size: 18px;
+      margin: 0px;
+     }
+  body h1{
+      font-size: 500%;
+      margin-left: 0px;
+     }
+  header{
+    margin-left: 0px;
+  }
+  footer{
+    margin-left: 0px;
+    height: auto;
+  }
+  main{
+    height: 800px;
+    margin-left: 0px;
+  }
+  .slideshow-container{
+    margin-left: 0px;
+  }
+  .menu-bar li a {
+    display: block;
+    height: 2em;
+    line-height: 2em;
+    color: #A4907C;
+    text-decoration: none;
+    position: sticky;
+    font-family: "Franklin Gothic Medium";
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    border-left: 20px solid rgba(0, 0, 0, 0.05);
+    transition: 0.1s ease-in-out;
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+}
+.menu li{
+  margin: 0px;
+}
+
+}
+
+@media screen and (max-width: 400px) {
+  main{
+    height: 950px;
+  }
+  main p {
+   margin-left: 0px;
+  }
+  body h1{
+   font-size: 500%;
+   margin-left: 0px;
+  }
+  h6{
+   margin-left: 10cm;
+   margin-right: 1cm;
+  }
+  h3{
+   margin-left: 0px;
+  }
+  .slideshow-container{
+    margin-left: 0px;
+    margin-top: 150px;
+  }
+ }
+

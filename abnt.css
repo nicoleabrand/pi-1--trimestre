@@ -212,7 +212,7 @@ img,main {
     height: 100%;
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 600px) {
     .container {
         margin-top: 100px;
     }
@@ -240,7 +240,7 @@ img,main {
 
     .open {
         width: 100%;
-        height: auto;
+        height: 520px;
         margin-left: 0;
     }
 
@@ -334,3 +334,37 @@ main p {
 * {
     box-sizing: border-box
 }
+
+@media screen and (max-width: 400px) {
+   main p {
+    margin-left: 0px;
+   }
+   body h1{
+    font-size: 500%;
+    margin-left: 0px;
+   }
+   h6{
+    margin-left: 10cm;
+    margin-right: 1cm;
+   }
+   h3{
+    margin-left: 0px;
+   }
+  }
+  @media screen and (max-width: 600px) {
+    main p {
+        margin-left: 0px;
+        font-size: 18px;
+       }
+    body h1{
+        font-size: 500%;
+        margin-left: 0px;
+       }
+       h3{
+        margin-left: 0px;
+       }
+       h6{
+        margin-left: 4cm;
+        margin-right: 1cm;
+       }
+  }
