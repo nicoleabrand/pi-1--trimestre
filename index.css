@@ -491,7 +491,9 @@ p {
 #myCarousel{
   margin-top: 0px !important;
 }
-
+body h1 {
+  margin-bottom: 10px;
+}
 }
 
 @media (max-width: 400px) {
@@ -521,6 +523,9 @@ p {
   }
   #myCarousel{
     margin-top: 0px !important;
+  }
+  body h1 {
+    margin-bottom: 10px;
   }
  }
 
