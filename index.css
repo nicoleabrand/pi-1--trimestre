@@ -490,7 +490,7 @@ p {
 
 @media screen and (max-width: 400px) {
   main{
-    height: 950px;
+    height: 1000px;
   }
   main p {
    margin-left: 0px;
