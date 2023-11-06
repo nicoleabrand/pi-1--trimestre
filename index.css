@@ -488,7 +488,7 @@ p {
 
 }
 
-@media screen and (max-width: 400px) {
+@media (max-width: 400px) {
   main{
     height: 1200px;
   }
