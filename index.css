@@ -491,11 +491,8 @@ p {
 #myCarousel{
   margin-top: 0px !important;
 }
-body h1 {
-  margin-bottom: -10px;
-}
 .container {
-  height: 150px;
+  height: 300px;
 }
 }
 
@@ -527,10 +524,7 @@ body h1 {
   #myCarousel{
     margin-top: 0px !important;
   }
-  body h1 {
-    margin-bottom: -10px;
-  }
   .container {
-    height: 150px;
+    height: 300px;
  }
 }
