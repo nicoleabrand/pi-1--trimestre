@@ -490,7 +490,7 @@ p {
 
 @media (max-width: 400px) {
   main{
-    height: 1200px;
+    height: 1100px;
   }
   main p {
    margin-left: 0px;
