@@ -494,6 +494,7 @@ p {
   }
   main p {
    margin-left: 0px;
+   height: fit-content;
   }
   body h1{
    font-size: 500%;
