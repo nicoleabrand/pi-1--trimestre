@@ -488,6 +488,9 @@ p {
 .carousel-inner img {
   margin-top: 0px;
 }
+#myCarousel{
+  margin-top: 0px !important;
+}
 
 }
 
@@ -515,6 +518,9 @@ p {
   }
   .carousel-inner img {
     margin-top: 0px;
+  }
+  #myCarousel{
+    margin-top: 0px !important;
   }
  }
 
