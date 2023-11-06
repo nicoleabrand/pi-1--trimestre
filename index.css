@@ -494,6 +494,7 @@ p {
   }
   main p {
    margin-left: 0px;
+   height: 1200px;
   }
   body h1{
    font-size: 500%;
@@ -512,6 +513,7 @@ p {
   }
   footer{
     width: 0px;
+    height: 0px;
   }
  }
 
