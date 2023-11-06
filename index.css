@@ -446,7 +446,6 @@ p {
   main p {
       margin-left: 0px;
       font-size: 18px;
-      margin-right: 2px;
      }
   body h1{
       font-size: 500%;
@@ -505,7 +504,6 @@ body h1 {
   }
   main p {
    margin-left: 0px;
-   margin-right: 2px;
   }
   body h1{
    font-size: 500%;
