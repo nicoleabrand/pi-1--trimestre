@@ -491,8 +491,11 @@ p {
 #myCarousel{
   margin-top: 0px !important;
 }
-.container {
-  height: 300px;
+body h1 {
+  margin-bottom: -10px;
+}
+.grid-container {
+  height: 100px;
 }
 }
 
@@ -524,7 +527,8 @@ p {
   #myCarousel{
     margin-top: 0px !important;
   }
-  .container {
-    height: 300px;
+
+  .grid-container {
+    height: 100px;
  }
 }
