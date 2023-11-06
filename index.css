@@ -490,11 +490,10 @@ p {
 
 @media screen and (max-width: 400px) {
   main{
-    height: 1000px;
+    height: 1200px;
   }
   main p {
    margin-left: 0px;
-   height: fit-content;
   }
   body h1{
    font-size: 500%;
