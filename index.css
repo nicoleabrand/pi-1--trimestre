@@ -494,6 +494,9 @@ p {
 body h1 {
   margin-bottom: -10px;
 }
+.container {
+  height: 150px;
+}
 }
 
 @media (max-width: 400px) {
@@ -527,5 +530,7 @@ body h1 {
   body h1 {
     margin-bottom: -10px;
   }
+  .container {
+    height: 150px;
  }
-
+}
