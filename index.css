@@ -495,7 +495,7 @@ body h1 {
   margin-bottom: -10px;
 }
 .grid-container {
-  height: 100px;
+  height: 70px;
 }
 }
 
@@ -529,6 +529,6 @@ body h1 {
   }
 
   .grid-container {
-    height: 100px;
+    height: 70px;
  }
 }
